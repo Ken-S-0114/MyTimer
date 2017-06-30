@@ -12,6 +12,7 @@
 		B293E88F1EA8BA3B004BA538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B293E88D1EA8BA3B004BA538 /* Main.storyboard */; };
 		B293E8911EA8BA3B004BA538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B293E8901EA8BA3B004BA538 /* Assets.xcassets */; };
 		B293E8941EA8BA3B004BA538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B293E8921EA8BA3B004BA538 /* LaunchScreen.storyboard */; };
+		B293E89C1EA9A098004BA538 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293E89B1EA9A098004BA538 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B293E8901EA8BA3B004BA538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B293E8931EA8BA3B004BA538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B293E8951EA8BA3B004BA538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B293E89B1EA9A098004BA538 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B293E8891EA8BA3B004BA538 /* AppDelegate.swift */,
 				B293E88B1EA8BA3B004BA538 /* ViewController.swift */,
 				B293E88D1EA8BA3B004BA538 /* Main.storyboard */,
+				B293E89B1EA9A098004BA538 /* SettingViewController.swift */,
 				B293E8901EA8BA3B004BA538 /* Assets.xcassets */,
 				B293E8921EA8BA3B004BA538 /* LaunchScreen.storyboard */,
 				B293E8951EA8BA3B004BA538 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				B293E88C1EA8BA3B004BA538 /* ViewController.swift in Sources */,
 				B293E88A1EA8BA3B004BA538 /* AppDelegate.swift in Sources */,
+				B293E89C1EA9A098004BA538 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
 				INFOPLIST_FILE = MyTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ken.MyTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JL94BNBL3S;
 				INFOPLIST_FILE = MyTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ken.MyTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +310,7 @@
 				B293E89A1EA8BA3B004BA538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
